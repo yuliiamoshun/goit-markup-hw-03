@@ -38,6 +38,13 @@ body {
   color: var(--primary-text-color);
   background: var(--white-color);
 }
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0px;
+}
 
 /* index.html */
 
@@ -134,7 +141,6 @@ body {
 }
 
 .main-section-header h1 {
-  margin: 0px;
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
@@ -178,7 +184,6 @@ body {
 }
 
 .benefits-list h3 {
-  margin-top: 0px;
   margin-bottom: 10px;
 
   color: var(--primary-text-color);
@@ -190,9 +195,6 @@ body {
 }
 
 .benefits-list p {
-  margin-top: 0px;
-  margin-bottom: 0px;
-
   color: var(--aditional-text-color);
   font-size: 14px;
   letter-spacing: 0.04em;
@@ -218,7 +220,6 @@ body {
 }
 
 .main-section-work h2 {
-  margin-top: 0px;
   margin-bottom: 50px;
 }
 
@@ -236,7 +237,6 @@ body {
 }
 
 .main-section-team h2 {
-  margin-top: 0px;
   margin-bottom: 50px;
 
   font-weight: bold;
@@ -263,7 +263,6 @@ body {
 }
 
 .main-section-team p {
-  margin: 0px;
   color: var(--aditional-text-color);
   font-size: 16px;
   line-height: 1.187;
@@ -392,7 +391,6 @@ body {
 }
 
 .box-portfolio h2 {
-  margin-top: 0px;
   margin-bottom: 4px;
 
   font-weight: bold;
@@ -402,8 +400,6 @@ body {
 }
 
 .box-portfolio p {
-  margin: 0px;
-
   color: var(--aditional-text-color);
   font-size: 16px;
   line-height: 1.875;
